@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="jsmvcAngularjs1SpaApp">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>JSMVC-ANGULARJS1-SPA</title>
+	<link rel="icon" href="images/nike.ico" />
+	<link rel="stylesheet" type="text/css" href="js/lib/bootstrap-3.3.7/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="js/lib/bootstrap-datepicker/css/bootstrap-datepicker.css" />
+	<link rel="stylesheet" type="text/css" href="js/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/custom.css" />
+</head>
+<body>
+	<div class="container body-content">
+		<layout-nav></layout-nav>
+		<div id="main" class="container">
+			<div ui-view=""></div>
+		</div>
+		<layout-footer></layout-footer>
+	</div>
+</body>
+<script type="text/javascript" src="js/lib/jquery-3.2.1/jquery.js"></script>
+<script type="text/javascript" src="js/lib/bootstrap-3.3.7/js/bootstrap.js"></script>
+<script type="text/javascript" src="js/lib/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="js/lib/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="js/lib/angular-1.6.9/angular.js"></script>
+<script type="text/javascript" src="js/lib/angular-ui-router-1.0.8/angular-ui-router.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/module/event-detail.js"></script>
+<script type="text/javascript" src="js/controller/event-detail.controller.js"></script>
+<script type="text/javascript" src="js/component/event-detail.component.js"></script>
+<script type="text/javascript" src="js/infrastructure/infrastructure.js"></script>
+<script type="text/javascript" src="js/infrastructure/httpErrorHandlingInterceptor.js"></script>
+</html>
